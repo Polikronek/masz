@@ -1,0 +1,104 @@
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+li{
+    float:left;
+    padding-left: 20px;
+    padding: 10px 35px;
+    color: #f0e9e9;
+    
+}
+
+ul{
+    float: left;
+    background-color: rgb(231, 61, 231);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Xanh Mono', monospace;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 0px;
+    
+
+}
+
+
+
+
+.a {
+   float: left;
+   background-color: rgb(206, 194, 194);
+   margin-top: 750px;
+   margin-right: 0px;
+   
+}
+
+.a1 {
+    float: none;
+}
+
+.b{
+    float: left;
+   background-color: rgb(206, 194, 194);
+   margin-top: 750px;
+   margin-left: 0px;
+   
+   
+   
+}
+
+.b1 {
+    float: none;
+
+}
+
+
+.c{
+    float: left;
+   background-color: rgb(206, 194, 194);
+   margin-top: 750px;margin-left: 0px;
+   
+   
+}
+
+.c1 {
+    float: none;
+
+}
+
+
+.d{
+  float: left;
+   background-color: rgb(206, 194, 194);
+  margin-top: 750px;
+  margin-left: 0px;
+   
+   
+}
+.d1 {
+    float: none;
+}
+
+@media only screen and (max-width: 500px){
+ul{
+    float: left;
+    display: block;
+}
+li {
+    padding-left: 10px;
+    padding: 10px 25px;
+    color: #f0e9e9;
+}
+.a .b .c .d{
+    display: block;
+    list-style: none;
+}
+   
+}
